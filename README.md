@@ -1,46 +1,33 @@
 ```markdown
-# 🧠 Deep Learning-Based Recommendation System
+# Deep Learning-Based Recommendation System
 
 > *Leveraging Neural Collaborative Filtering for Personalized User Experiences*
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange.svg)](https://www.tensorflow.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)]()
-
 ---
 
-## 📌 Overview
+## Overview
 
 This repository contains the complete implementation of my **thesis project** – a deep learning-based recommendation system that outperforms traditional collaborative filtering methods. The model uses **Neural Collaborative Filtering (NCF)** to capture complex, non-linear user-item interactions, delivering more accurate and personalized recommendations.
 
 **Key Features:**
-- ✅ End-to-end pipeline: data preprocessing → training → evaluation  
-- ✅ Neural Collaborative Filtering with embedding layers + MLP  
-- ✅ Comparison with baseline SVD model  
-- ✅ Evaluation metrics: RMSE, Precision@K, Recall@K  
-- ✅ Modular, clean, and well-documented code  
+- End-to-end pipeline: data preprocessing → training → evaluation  
+- Neural Collaborative Filtering with embedding layers + MLP  
+-  Comparison with baseline SVD model  
+- Evaluation metrics: RMSE, Precision@K, Recall@K  
+- Modular, clean, and well-documented code  
 
 ---
 
-## 🚀 Live Demo (Optional)
-> *If you have a deployed version, add a link here.*
-
-🔗 [Live Demo](#) – *Coming soon!*
-
----
-
-## 📊 Dataset
+## Dataset
 
 This project uses the **MovieLens-1M** dataset (or your custom dataset).  
 - **Size:** 1 million ratings from 6,000 users on 4,000 movies  
 - **Features:** User ID, Movie ID, Rating, Timestamp  
 
-> ⚠️ *You can replace it with any user-item interaction dataset (e.g., Amazon Reviews, Netflix Prize).*
+> *You can replace it with any user-item interaction dataset (e.g., Amazon Reviews, Netflix Prize).*
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User ID ──► Embedding ──┐
@@ -55,37 +42,37 @@ Item ID ──► Embedding ──┘
 
 ---
 
-## 📈 Results
+## Results
 
 | Model | RMSE | Precision@10 | Recall@10 |
 |-------|------|--------------|-----------|
 | SVD (Baseline) | 0.91 | 0.72 | 0.68 |
 | **NCF (Ours)** | **0.82** | **0.85** | **0.81** |
 
-✅ **Improvement:** ~10% better accuracy, especially for users with sparse interaction history.
+ **Improvement:** ~10% better accuracy, especially for users with sparse interaction history.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-📦 deep-learning-recsys
-├── 📂 data/               # Dataset (raw & processed)
-├── 📂 notebooks/          # Jupyter notebooks for EDA & experiments
-├── 📂 src/                # Source code
+ deep-learning-recsys
+├──  data/               # Dataset (raw & processed)
+├──  notebooks/          # Jupyter notebooks for EDA & experiments
+├──  src/                # Source code
 │   ├── preprocess.py      # Data cleaning & splitting
 │   ├── model.py           # NCF model definition
 │   ├── train.py           # Training script
 │   └── evaluate.py        # Evaluation metrics
-├── 📂 results/            # Plots, logs, saved models
-├── 📄 requirements.txt    # Dependencies
-├── 📄 README.md           # You are here!
-└── 📄 LICENSE             # MIT License
+├──  results/            # Plots, logs, saved models
+├──  requirements.txt    # Dependencies
+├──  README.md           # You are here!
+└──  LICENSE             # MIT License
 ```
 
 ---
 
-## 🛠️ Installation & Usage
+##  Installation & Usage
 
 ### 1. Clone the Repository
 ```bash
@@ -113,14 +100,14 @@ predict_rating(user_id=42, item_id=1337)
 
 ---
 
-## 📚 Thesis & Documentation
+##  Thesis & Documentation
 
-- 📄 Full thesis (PDF) – [link to your thesis](#)  
-- 📝 Presentation slides – [link to slides](#)  
+-  Full thesis (PDF) – [link to your thesis](#)  
+-  Presentation slides – [link to slides](#)  
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:  
 - Fork the repo  
@@ -129,31 +116,31 @@ Contributions are welcome! Feel free to:
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - **Team Members:** Shahmir Khan, Waleedullah, M Abbass
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Your Name**  
 📧 kshahmir822@gmail.com
 
 ---
 
-> ⭐ *If you find this project helpful, please give it a star!*
+>  *If you find this project helpful, please give it a star!*
 ```
 
 ---
 
-## 🎨 Bonus: Badges You Can Add
+##  Bonus: Badges You Can Add
 
 | Badge | Purpose |
 |-------|---------|
